@@ -6,5 +6,9 @@ namespace WebApplication1.Controllers
     [Route("[controller]")]
     public class TestController : ControllerBase
     {
+        private static readonly string[] Answers = new[]
+        {
+            "Yes", "No"
+        };
     }
 }
