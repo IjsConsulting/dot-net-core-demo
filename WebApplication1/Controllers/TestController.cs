@@ -14,7 +14,13 @@ namespace WebApplication1.Controllers
         [HttpGet]
         public string GetAnswer()
         {
-            return Answers[0];
+            return Answers[1];
+        }
+
+        [HttpGet]
+        public string GetAnswer2()
+        {
+            return Answers[1];
         }
     }
 }
