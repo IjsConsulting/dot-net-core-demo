@@ -16,5 +16,9 @@ namespace WebApplication1.Controllers
         {
             return Answers[1];
         }
+
+        private void Run()
+        {
+        }
     }
 }
