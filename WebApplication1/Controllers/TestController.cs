@@ -10,5 +10,11 @@ namespace WebApplication1.Controllers
         {
             "Yes", "No"
         };
+
+        [HttpGet]
+        public string GetAnswer()
+        {
+            return Answers[0];
+        }
     }
 }
