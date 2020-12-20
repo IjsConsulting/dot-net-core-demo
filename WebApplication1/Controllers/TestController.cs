@@ -16,11 +16,5 @@ namespace WebApplication1.Controllers
         {
             return Answers[1];
         }
-
-        [HttpGet]
-        public string GetAnswer2()
-        {
-            return Answers[1];
-        }
     }
 }
