@@ -10,6 +10,5 @@ namespace WebApplication1.Controllers
         {
             "Yes", "No"
         };
-
     }
 }
