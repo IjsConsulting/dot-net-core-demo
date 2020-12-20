@@ -14,7 +14,7 @@ namespace WebApplication1.Controllers
         [HttpGet]
         public string GetAnswer()
         {
-            return Answers[0];
+            return Answers[1];
         }
     }
 }
